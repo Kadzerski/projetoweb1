@@ -1,7 +1,7 @@
 <?php
 // print_r($_GET);
 $nome = $_GET['nome'];
-$idade $_GET['idade'];
+$idade = $_GET['idade'];
 echo '<h1>Dados do Usuário</h1>';
 echo '<hr>';
 echo "<p>O usuário $nome tem $idade anos.</p>";
